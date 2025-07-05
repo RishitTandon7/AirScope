@@ -1,0 +1,117 @@
+{
+  "name": "AirScope - Real-time Air Quality Monitoring",
+  "short_name": "AirScope",
+  "description": "Real-time air quality monitoring with advanced analytics and personalized health recommendations. Track AQI, PM2.5, weather data and get health alerts.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0c4a6e",
+  "theme_color": "#a855f7",
+  "categories": ["health", "weather", "utilities", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.svg",
+      "sizes": "72x72",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-96x96.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-128x128.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-144x144.svg",
+      "sizes": "144x144",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-152x152.svg",
+      "sizes": "152x152",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384x384.svg",
+      "sizes": "384x384",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.jpg",
+      "sizes": "540x960",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "AirScope home screen showing current AQI"
+    },
+    {
+      "src": "/screenshots/dashboard.jpg",
+      "sizes": "1024x768",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "AirScope dashboard with analytics"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Check Air Quality",
+      "short_name": "Check AQI",
+      "description": "Quickly check current air quality index",
+      "url": "/?shortcut=aqi",
+      "icons": [
+        {
+          "src": "/icons/shortcut-aqi.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "View Map",
+      "short_name": "Map",
+      "description": "View interactive air quality map",
+      "url": "/?shortcut=map",
+      "icons": [
+        {
+          "src": "/icons/shortcut-map.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "display_override": ["standalone", "minimal-ui"],
+  "protocol_handlers": [],
+  "edge_side_panel": {},
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}
