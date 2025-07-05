@@ -1,0 +1,39 @@
+<svg width="1024" height="768" viewBox="0 0 1024 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f9ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e0f2fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0fdfa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="768" fill="url(#bg)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1024" height="80" fill="rgba(168,85,247,0.1)"/>
+  <text x="512" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#7c3aed" text-anchor="middle">AirScope Dashboard</text>
+  
+  <!-- Main Content Grid -->
+  <rect x="40" y="120" width="300" height="250" rx="16" fill="white" opacity="0.9"/>
+  <text x="190" y="160" font-family="Arial, sans-serif" font-size="20" fill="#374151" text-anchor="middle">Current AQI</text>
+  <text x="190" y="220" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#14b8a6" text-anchor="middle">85</text>
+  <text x="190" y="250" font-family="Arial, sans-serif" font-size="18" fill="#6b7280" text-anchor="middle">Good Air Quality</text>
+  
+  <rect x="380" y="120" width="300" height="250" rx="16" fill="white" opacity="0.9"/>
+  <text x="530" y="160" font-family="Arial, sans-serif" font-size="20" fill="#374151" text-anchor="middle">Map View</text>
+  <circle cx="530" cy="245" r="60" fill="rgba(20,184,166,0.3)"/>
+  <circle cx="530" cy="245" r="8" fill="#14b8a6"/>
+  
+  <rect x="720" y="120" width="260" height="250" rx="16" fill="white" opacity="0.9"/>
+  <text x="850" y="160" font-family="Arial, sans-serif" font-size="20" fill="#374151" text-anchor="middle">Trends</text>
+  <polyline points="740,300 780,280 820,290 860,270 900,250 940,240" fill="none" stroke="#14b8a6" stroke-width="3"/>
+  
+  <!-- Bottom Charts -->
+  <rect x="40" y="400" width="940" height="320" rx="16" fill="white" opacity="0.9"/>
+  <text x="510" y="440" font-family="Arial, sans-serif" font-size="24" fill="#374151" text-anchor="middle">Air Quality Analytics</text>
+  
+  <!-- Chart representation -->
+  <rect x="80" y="480" width="40" height="100" fill="#14b8a6" opacity="0.7"/>
+  <rect x="140" y="460" width="40" height="120" fill="#f59e0b" opacity="0.7"/>
+  <rect x="200" y="500" width="40" height="80" fill="#ef4444" opacity="0.7"/>
+  <rect x="260" y="490" width="40" height="90" fill="#8b5cf6" opacity="0.7"/>
+</svg>
